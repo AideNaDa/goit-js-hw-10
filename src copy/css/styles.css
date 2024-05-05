@@ -1,0 +1,135 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('../../node_modules/flatpickr/dist/flatpickr.min.css');
+@import url('../../node_modules/izitoast/dist/css/iziToast.min.css');
+
+/* ------ TIMER ------ */
+
+body {
+  margin: 16px;
+}
+
+input {
+  padding: 0 16px;
+  width: 272px;
+  height: 40px;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+input:hover {
+  border-color: #2e2f42;
+}
+
+input:active {
+  border-color: #4e75ff;
+}
+
+#datetime-picker:disabled {
+  border-color: #808080;
+  color: #808080;
+}
+
+[data-start],
+.form button {
+  border-radius: 8px;
+  width: 75px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.form button {
+  width: 360px;
+}
+
+[data-start]:hover,
+.form button:hover {
+  background-color: #6c8cff;
+}
+
+[data-start]:disabled {
+  background-color: #cfcfcf;
+  color: #989898;
+}
+
+.flatpickr-calendar.hasTime.animate.arrowTop.arrowLeft.open {
+  background-color: #f5f5f5;
+}
+
+.timer {
+  margin-top: 32px;
+  display: flex;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* ------ SNACKBAR ------ */
+
+.form {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+}
+
+.snackbar input {
+  width: 328px;
+  color: #2e2f42;
+}
+
+.snackbar input:hover {
+  border-color: #4e75ff;
+}
+
+.snackbar fieldset input {
+  width: 20px;
+  height: 20px;
+}
+
+.delay {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.state {
+  display: flex;
+  gap: 48px;
+  padding-left: 28px;
+  border: solid 1px #808080;
+  border-radius: 4px;
+  width: 332px;
+  height: 64px;
+  justify-content: center;
+  margin: 14px 0 24px;
+}
+
+.state label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
