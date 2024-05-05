@@ -1,7 +1,5 @@
 @import url('./reset.css');
 @import url('./base.css');
-@import url('../../node_modules/flatpickr/dist/flatpickr.min.css');
-@import url('../../node_modules/izitoast/dist/css/iziToast.min.css');
 
 /* ------ TIMER ------ */
 
